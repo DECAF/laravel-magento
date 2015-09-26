@@ -1,0 +1,26 @@
+{
+    "name": "decaf/magento",
+    "description": "Magento bridge package",
+    "keywords" : ["laravel", "magento"],
+    "license": "MIT",
+    "homepage": "http://www.decaf.de",
+    "authors": [
+        {
+            "name": "Stefan Ullrich",
+            "email": "su@decaf.de",
+            "homepage": "http://www.decaf.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Decaf\\Magento": "src/"
+        }
+    }
+}
